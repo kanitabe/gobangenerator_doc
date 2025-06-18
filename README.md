@@ -22,9 +22,12 @@ https://www.youtube.com/watch?v=3ZP1XjDqpF0
 
 ![Parameters](https://kanitabe.work/wp-content/uploads/2022/08/2022-08-04_21h00_06.png)
 
-GameRandomGenerateランダム生成を使用するかどうか。局面の妥当性は保証されません。
-
-Whether random generation is used or not. The validity of the station is not guaranteed.SelectDistributionSeed碁石をランダムに選択するランダム式のシードStoneRandomRotation碁石をランダムに回転させるかどうかRotationSeed碁石のランダム回転のシード
+| Parameter                | Description (Japanese)                                   | Description (English)                                                                |
+| :----------------------- | :------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| `GameRandomGenerate`     | ランダム生成を使用するかどうか。局面の妥当性は保証されません。 | Whether to use random generation. The validity of the board position is not guaranteed. |
+| `SelectDistributionSeed` | 碁石をランダムに選択するランダム式のシード               | Seed for the random selection of stones.                                             |
+| `StoneRandomRotation`    | 碁石をランダムに回転させるかどうか                         | Whether to randomly rotate the stones.                                               |
+| `RotationSeed`           | 碁石のランダム回転のシード                               | Seed for the random rotation of stones.                                              |
 
 ## Stone Custmaize（碁石のカスタマイズ）
 
